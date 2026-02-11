@@ -4,7 +4,7 @@ Metasequoia (.mqo) 形式の3DモデルをOpenGLで読み込み・表示する�
 
 ## 概要
 
-[GLMetaseq](https://github.com/) ライブラリを使用して MQO ファイルを読み込み、GLUT ウィンドウ上に3Dモデルをレンダリングします。デバッグ用のHUD表示、座標軸、グリッド描画、FPS計測などの機能を備えています。
+[GLMetaseq]([https://github.com/](https://kougaku-navi.net/ARToolKit/)) ライブラリを使用して MQO ファイルを読み込み、GLUT ウィンドウ上に3Dモデルをレンダリングします。デバッグ用のHUD表示、座標軸、グリッド描画、FPS計測などの機能を備えています。
 
 ## ファイル構成
 
@@ -72,7 +72,7 @@ make
 - テクスチャサイズ: 一辺が2のn乗の正方形に限る
 - 曲面・鏡面・回転体・メタボールは非対応
 
-## Linux (WSL2) 対応における GLMetaseq の変更点
+## Linux対応における GLMetaseq の変更点
 
 オリジナルの GLMetaseq は Windows 向けに書かれており、Linux 環境ではVBO関連のシンボル衝突によりセグメンテーション違反が発生していました。以下のバグ修正を行っています。
 
@@ -87,3 +87,4 @@ make
 ## ライセンス
 
 GLMetaseq ライブラリ部分は MIT License (Copyright (c) 2009 Sunao Hashimoto and Keisuke Konishi) です。MIT License の条件に基づき、上記のバグ修正を含む改変を行っています。詳細は `GLMetaseq.h` および `LICENCE.txt` を参照してください。
+
